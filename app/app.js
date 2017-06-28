@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import Main from "./components/Main";
+
 const App = () => {
     return (
         <div>
-            <h1>My Portfolio</h1>
+            <Main />
         </div>
     )
 }
