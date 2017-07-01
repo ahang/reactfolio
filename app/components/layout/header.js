@@ -1,13 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
         <div>
-            <ul className="nav nav-tabs nav-justified">
-                <li role="presentation" className="active"><a href="#"><span className="glyphicon glyphicon-home" aria-hidden="true">Home</span></a></li>
-                <li role="presentation"><a href="#">Portfolio</a></li>
-                <li role="presentation"><a href="#">About</a></li>
-            </ul>
+            <nav className="navbar navbar-default">
+                <div className="container-fluid">
+                    <div className="navbar-header">
+                        <Link to="/" className="navbar-brand">
+                            <img alt="Andy Hang" src="" />
+                        </Link>
+                    </div>
+                    <ul className="nav nav-pills navbar-right">
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     )
 }

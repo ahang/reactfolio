@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Header from "./layout/header";
 import Footer from "./layout/footer";
 import Home from "./content/home";
+import About from "./content/about"
 
 class Main extends Component {
     constructor(props) {
@@ -12,9 +13,15 @@ class Main extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <Header />
-                <Home />
-                <Footer />
+                <div className="row">
+                    <Header />
+                </div>
+                <div>
+                    <Home />
+                </div>
+                <div className="row">
+                    <Footer />
+                </div>
             </div>
         )
     }

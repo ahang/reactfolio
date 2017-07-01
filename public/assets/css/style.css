@@ -1,3 +1,16 @@
+.skills-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.default {
+    border-radius: .5rem;
+    padding: 5px;
+    height: 100%;
+    border: 2px solid red;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -6,8 +19,4 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-* {
-    border: 1px solid red;
 }
