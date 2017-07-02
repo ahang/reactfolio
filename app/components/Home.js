@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Hero from "./content/hero"
-import Skills from "./content/skills"
+import Hero from "./content/hero";
+import Skills from "./content/skills";
 
 class Home extends Component {
     constructor(props) {

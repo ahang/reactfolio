@@ -9,7 +9,7 @@ class Skills extends Component {
         return (
             <div className="container-fluid skills-container">
                 <h1 className="skills-header text-center">Skills</h1>
-                <div className="row-fluid">
+                <div className="row-fluid skills-row">
                     <div className="skills-box col-sm-4">
                         <div className="well">
                             <h4 className="text-center">Front-End</h4>

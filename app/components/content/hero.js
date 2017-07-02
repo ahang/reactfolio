@@ -7,11 +7,14 @@ class Hero extends Component {
 
 	render() {
 		return(
-			<div className="container-fluid">
-				<img src="http://via.placeholder.com/1200x628" className="img-fluid" alt="the great hero" />
-				<button className="btn btn-primary">Github</button>
-				<button className="btn btn-primary">Linked</button>
-				<button className="btn btn-primary">Resume</button>
+			<div className="container-fluid img-container">
+				<div className="imgs-container">
+				<div className="hero-overlay overlay">
+					<button className="hero-btn btn btn-primary">Github</button>
+					<button className="hero-btn btn btn-primary">LinkedIn</button>
+					<button className="hero-btn btn btn-primary">Resume</button>
+				</div>
+				</div>
 			</div>
 		)
 	}
