@@ -10,20 +10,34 @@ class Home extends Component {
             <div className="container-fluid skills-container">
                 <h1 className="skills-header">Skills</h1>
                 <div className="row-fluid">
-                    <div className="skills-box col-md-4">
-                        <h3>Front-End</h3>
-                        <hr />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <div className="skills-box col-sm-4">
+                        <div className="well">
+                            <h3>Strong</h3>
+                            <hr />
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="skills-box col-md-4">
-                        <h3>Back-End</h3>
+                    <div className="skills-box col-sm-4">
+                        <div className="well">
+                        <h3>Experienced</h3>
                         <hr />
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
                     </div>
-                    <div className="skills-box col-md-4">
-                        <h3>Text</h3>
+                    <div className="skills-box col-sm-4">
+                        <div className="well">
+                        <h3>Working Knowledge</h3>
                         <hr />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <ul>
+                            <li>Python</li>
+                            <li>Djano</li>
+                            <li>Flask</li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
