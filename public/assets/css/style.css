@@ -4,23 +4,10 @@
     height: 100%;
 }
 
-.imgs-container {
-    background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-1221.png");
+.img-fluid {
+    height: 100%;
+    width: 100%;
 }
-
-.hero-overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-
-}
-
-.hero-btn {
-    margin: 25px;
-}
-
 
 .skills-container {
     margin-left: auto;
@@ -31,13 +18,17 @@
     margin-left: 10px;
 }
 
+.social-links a {
+    margin-right: 10px;
+}
+
 ul {
   list-style-type: none;
 }
 
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 50%;
     height: 30px;

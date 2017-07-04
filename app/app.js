@@ -4,7 +4,7 @@ import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
 //Layout Components
 import Header from "./components/layout/header";
-import Footer from "./components/layout/footer";
+import Footer from "./components/layout/footer"
 
 //Main Content Components
 import Home from "./components/home";

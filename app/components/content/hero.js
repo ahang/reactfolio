@@ -1,23 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Hero extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	render() {
-		return(
-			<div className="container-fluid img-container">
-				<div className="imgs-container">
-				<div className="hero-overlay overlay">
-					<button className="hero-btn btn btn-primary">Github</button>
-					<button className="hero-btn btn btn-primary">LinkedIn</button>
-					<button className="hero-btn btn btn-primary">Resume</button>
-				</div>
-				</div>
-			</div>
-		)
-	}
+const Hero = () => {
+	return(
+		<div className="container-fluid img-container">
+			<img src="https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-1221.png" className="img-fluid img-fluid" />
+		</div>
+	)
 }
 
 export default Hero;
