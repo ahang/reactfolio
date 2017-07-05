@@ -1,4 +1,4 @@
-.col-sm-4 {
+/*.col-sm-4 {
     border-radius: .5rem;
     padding: 5px;
     height: 100%;
@@ -16,23 +16,18 @@
 
 .skills-row {
     margin-left: 10px;
+}*/
+
+.footer a {
+    margin-right: 10px;
 }
 
-.social-links a {
-    margin-right: 10px;
+.nav {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
 }
 
 ul {
   list-style-type: none;
-}
-
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 50%;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }

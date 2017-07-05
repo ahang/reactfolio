@@ -1,0 +1,9 @@
+[
+    {
+        "title":"The Almost Perfect Pick",
+        "url":"https://almostperfectpick.herokuapp.com/",
+        "github":"https://github.com/ahang/project_ares",
+        "objective":"To assist users of Netflix to narrow down a good movie based on IMDB Rating of 6 or higher. More movie time and less browse time",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "Firebase", "AJAX", "APIS"]
+    }
+]

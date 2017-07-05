@@ -7,11 +7,11 @@ class Skills extends Component {
 
     render() {
         return (
-            <div className="container-fluid skills-container">
+            <div className="container skills-container">
                 <h1 className="skills-header text-center">Skills</h1>
-                <div className="row-fluid skills-row">
-                    <div className="skills-box col-sm-4">
-                        <div className="well">
+                <div className="row-fluid skills-row card-deck">
+                    <div className="skills-box col-sm-4 card">
+                        <div className="card-block">
                             <h4 className="text-center">Front-End</h4>
                             <hr />
                             <ul>
@@ -26,8 +26,8 @@ class Skills extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="skills-box col-sm-4">
-                        <div className="well">
+                    <div className="skills-box col-sm-4 card">
+                        <div className="card-block">
                                 <h4 className="text-center">Back-End</h4>
                             <hr />
                             <ul>
@@ -44,8 +44,8 @@ class Skills extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="skills-box col-sm-4">
-                        <div className="well">
+                    <div className="skills-box col-sm-4 card">
+                        <div className="card-block">
                         <h4 className="text-center">Other</h4>
                         <hr />
                         <ul>

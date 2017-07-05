@@ -11,13 +11,17 @@ import Home from "./components/home";
 import Portfolio from "./components/content/portfolio";
 import About from "./components/content/about";
 
+import Projects from "./components/content/data/projects.json"
+
 const App = () => {
     return (
         <HashRouter>
             <div className="container-fluid">
                 <Header />
                 <Route exact path="/about" component={About} />
-                <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/portfolio" render={ (props) => (
+                    <Portfolio {...props} projects={Projects} />
+                )} />
                 <Route exact path="/" component={Home} />
                 <Footer />
             </div>
