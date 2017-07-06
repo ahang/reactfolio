@@ -8,24 +8,30 @@ class Portfolio extends Component {
     renderList() {
         return this.props.projects.map((proj) => {
             return (
-                <li
-                    key={proj.title}
-                    className="list-group-item">
-                    <p>{proj.title}</p>
-                    <p>{proj.url}</p>
-                    <p>{proj.objective}</p>
-                </li>
+                <div className="card" key={proj.title}>
+                    <img className="card-img-top" src={proj.img} alt={`Image of ${proj.title}`}/>
+                    <div className="card-block">
+                        <h4 className="card-title">{proj.title}</h4>
+                        <p className="card-text">The goal of this app is {proj.objective}</p>
+                        <h6>Technologies Used</h6>
+                        <ul>
+                            {proj.technologies.map((tech) => <li key={tech}>{tech}</li> )}
+                        </ul>
+                    </div>
+                    <div className="card-footer">
+                        <a href={proj.url} className="card-link">Check it out live</a>
+                        <a href={proj.github} className="card-link">Check out the Repository</a>
+                    </div>
+                </div>
             )
         })
     }
 
-
     render() {
-        console.log(this.props);
         return (
-            <ul className="list-group col-sm-4">
+            <div className="card-group">
                 {this.renderList()}
-            </ul>
+            </div>
         )
     }
 }
