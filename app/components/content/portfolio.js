@@ -8,7 +8,7 @@ class Portfolio extends Component {
     renderList() {
         return this.props.projects.map((proj) => {
             return (
-                <div className="card" key={proj.title}>
+                <div className="card card-outline-primary" key={proj.title}>
                     <img className="card-img-top" src={proj.img} alt={`Image of ${proj.title}`}/>
                     <div className="card-block">
                         <h4 className="card-title">{proj.title}</h4>
@@ -19,8 +19,8 @@ class Portfolio extends Component {
                         </ul>
                     </div>
                     <div className="card-footer">
-                        <a href={proj.url} className="card-link">Check it out live</a>
-                        <a href={proj.github} className="card-link">Check out the Repository</a>
+                        <p><a href={proj.url} className="btn btn-success card-link">Check it out live</a></p>
+                        <p><a href={proj.github} className="btn btn-danger card-link">Check out the Repository</a></p>
                     </div>
                 </div>
             )
@@ -29,7 +29,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="card-group">
+            <div className="card-deck">
                 {this.renderList()}
             </div>
         )

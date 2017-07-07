@@ -31,3 +31,7 @@
 ul {
   list-style-type: none;
 }
+
+.card-img-top {
+    width: 100%;
+}
