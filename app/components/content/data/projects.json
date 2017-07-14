@@ -1,7 +1,7 @@
 [
     {
         "title":"The Almost Perfect Pick",
-        "img": "assets/img/app.gif",
+        "img": "public/assets/img/app.gif",
         "url":"http://andyhang.com/project_ares/",
         "github":"https://github.com/ahang/project_ares",
         "objective":"to assist users of Netflix to narrow down a good movie based on IMDB Rating of 6 or higher. More movie time and less browse time",
@@ -9,7 +9,7 @@
     },
     {
         "title":"Second Opinion Finder",
-        "img": "assets/img/sof.gif",
+        "img": "public/assets/img/sof.gif",
         "url":"http://secondopinionfinder.herokuapp.com/",
         "github":"https://github.com/ahang/secondOpinion",
         "objective":"to assists patients who desire additional advice on a sudden diagnosis and have been given a risky or intense treatment recommendations.",
