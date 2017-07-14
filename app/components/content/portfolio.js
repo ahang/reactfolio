@@ -29,7 +29,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="card-deck">
+            <div className="container card-deck">
                 {this.renderList()}
             </div>
         )

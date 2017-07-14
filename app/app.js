@@ -18,11 +18,11 @@ const App = () => {
         <HashRouter>
             <div className="container-fluid">
                 <Header />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/portfolio" render={ (props) => (
-                    <Portfolio {...props} projects={Projects} />
-                )} />
-                <Route exact path="/" component={Home} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/portfolio" render={ (props) => (
+                        <Portfolio {...props} projects={Projects} />
+                    )} />
+                    <Route exact path="/" component={Home} />
                 <Footer />
             </div>
         </HashRouter>
